@@ -1,0 +1,53 @@
+$font__serif: 'Alegreya', serif;
+$font__sans: 'Roboto', sans-serif;
+$color__grey--dark: #333;
+$color__grey--light: #888;
+
+:root {
+    font-size: 62.5%;
+}
+.main {
+    margin: 10rem auto;
+    width: 90vw;
+    max-width: 960px;
+}
+.article {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.heading-1, .heading-2, .heading-3, .heading-4 {
+    font-family: $font__serif;
+    line-height: 1.2em;
+    margin: 0;
+}
+.heading-1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.heading-2 {
+    font-size: 3.6rem;
+}
+.heading-3 {
+    font-size: 3.4rem;
+}
+.heading-4 {
+    font-size: 1.8rem;
+}
+.paragraph-1 {
+    font-size: 1.6rem;
+    font-family: $font__serif;
+    line-height: 1.2em;
+    color: $color__grey--dark;
+}
+.paragraph-1--intro {
+    font-family: $font__sans;
+    color: black;
+    font-weight: 700;
+    margin-top: 3rem;
+}
+.author-date {
+    font-family: $font__sans;
+    color: $color__grey--light;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
